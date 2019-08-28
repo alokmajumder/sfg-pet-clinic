@@ -15,7 +15,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>sfg pet clinic</description>
 
@@ -33,6 +33,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
                 </configuration>
@@ -41,8 +42,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:alokmajumder/sfg-pet-clinic.git</developerConnection>
-
+        <developerConnection>scm:git:git@github.com/alokmajumder/sfg-pet-clinic.git</developerConnection>
     </scm>
 
 </project>
